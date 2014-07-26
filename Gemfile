@@ -15,3 +15,9 @@ gem 'spring',        group: :development
 
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+
+gem 'carrierwave'
+
+gem "fog", "~> 1.3.1"
+
+gem "figaro"

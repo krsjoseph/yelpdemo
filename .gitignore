@@ -18,3 +18,5 @@
 .idea/
 
 .DS_store
+# Ignore application configuration
+/config/application.yml
