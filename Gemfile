@@ -25,3 +25,9 @@ gem "figaro"
 gem "mini_magick"
 
 gem 'bootstrap-sass', '~> 3.2.0'
+
+group :development do
+  gem 'guard'
+  gem 'guard-livereload', require: false
+  gem "rack-livereload"
+end

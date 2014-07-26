@@ -1,1 +1,39 @@
 @import "bootstrap";
+
+
+.jumbotron{
+  background-color: #FEF7DF;
+  border: 1px solid #FFCC00;
+  h2{
+    color: #C41200;
+    font-weight: bold;
+  }
+
+  h3{
+    color: #333333;
+  }
+}
+
+
+.navbar-default{
+  .container-fluid{
+    background-color: #B60A04;
+    .navbar-nav >li > a{
+     color: white;
+     font-size: 16px;
+      font-weight: bold;
+    }
+    .navbar-brand{
+      color: black;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Hobo Std';
+      text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white,1px 1px white, -1px -1px 0 white, 1px -1px white, -1px 1px 0 white;
+    }
+  }
+}
+
+.container-fluid{
+  padding: 10px 120px;
+}
+
